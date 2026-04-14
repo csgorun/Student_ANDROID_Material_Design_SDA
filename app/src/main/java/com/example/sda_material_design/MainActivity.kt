@@ -139,6 +139,14 @@ fun StudentPreview() {
     }
 }
 
+@Preview
+@Composable
+fun StudentDarkThemePreview() {
+    SDA_Material_DesignTheme(darkTheme = true) {
+        StudentApp()
+    }
+}
+
 
 
 
